@@ -37,7 +37,7 @@ This is the list of the top-level navigation items that will appear on the left 
 \* Themes, mouse, command palette, and marketplace will be added once they're implemented.
 
 ![Overall navigation](./navigation-2.png)
-
+> [COMMENT] 导航条目存在两处待补充内容：1. Profiles下子项名称“Enumerate profiles”偏技术化，需确认面向终端用户展示名称；2. 带*延后开发模块，没有标注大致上线规划。
 ### Profile appearance page
 
 This page requires special design because it includes the TerminalControl window to preview appearance changes. This preview window will appear on the following pages:
@@ -62,7 +62,7 @@ If the command they select has additional arguments/actions, the modal will dyna
 ![Keyboard page modal add new arguments](./keyboard-modal-add.png)
 
 ![Keyboard page modal arguments](./keyboard-modal-args.png)
-
+> [REVIEW] 预览窗口规范缺失：未定义窗口最小尺寸、缩放规则、配置修改后预览的刷新时机。
 ## Settings layout
 
 Below is the list of all settings on their respective pages in the settings UI. The title row aligns with the navigation view on the left of the UI. Bolded headers in those columns align with top nav on the page.
@@ -104,7 +104,7 @@ Below is the list of all settings on their respective pages in the settings UI. 
 | | | | | | How the profile closes (radio) | Scroll to input when typing (checkbox) | Scroll to input when typing (checkbox) |
 | | | | | | | History size (number picker) | History size (number picker) |
 | | | | | | | How the profile closes (radio) | How the profile closes (radio) |
-
+> [COMMENT] 两处问题：1. 命名大小写不统一，导航里为`Color schemes`，表格表头为`Color Schemes`；2. 所有数值型配置（透明度、字号、行列数）没有标注合法取值区间。
 ## Potential Issues
 
 ## Future considerations
